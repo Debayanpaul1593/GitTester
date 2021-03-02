@@ -1,12 +1,9 @@
 import React from 'react';
 import {View, Text} from 'react-native';
-
-const App: () => React$Node = () => {
+export function HomeScreen() {
   return (
     <View style={{flex: 1}}>
-      <Text>Hello!</Text>
+      <Text>This is Home Screen</Text>
     </View>
   );
-};
-
-export default App;
+}
